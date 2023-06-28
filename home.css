@@ -1,0 +1,40 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(70, 68, 68);
+}
+#div-el{
+    max-width: 350px;
+    max-height: 100%;
+    margin: auto;
+    padding-top: 150px;
+}
+#joke-name{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+#joke-answer{
+    color: rgb(72, 255, 0);
+    margin-bottom: 40px;
+    font-size: 26px;
+    font-family: serif;
+}
+#joke-btn{
+    margin-left: 75px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 197, 64);
+    cursor: pointer;
+    border: none;
+    padding: 13px;
+    border-radius: 7px;
+    transition: 0.5s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#joke-btn:hover{
+    color: rgb(94, 255, 0);
+    background-color: rgb(255, 255, 255);
+}
